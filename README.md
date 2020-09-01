@@ -1,44 +1,53 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- VARS -->
+[live-demo-url]: https://chap0lin-ecoleta-nlw1-web.herokuapp.com/
+[back-end-url]: https://chap0lin-ecoleta-nlw1-server.herokuapp.com/
+[react-badge]: https://img.shields.io/badge/react-%5E16.13.1-%2300d8ff
+[typescript-badge]: https://img.shields.io/badge/typescript-%5E3.7.5-%232d79c7
+[node-badge]: https://img.shields.io/badge/node-v12.9.1-%238bc500
+[expo-badge]: https://img.shields.io/badge/expo-~37.0.3-%23000020
+[reactnative-badge]: https://img.shields.io/badge/react--native-~0.61.17-%2300d8ff
+[knex-badge]: https://img.shields.io/badge/knex-%5E0.21.1-%23e16426
+[heroku-badge]: https://img.shields.io/badge/heroku-active-%238052bc
 
-## Available Scripts
+<!-- VARS -->
+<div align="center">
+    <!--
+![Node][node-badge]
+![React][react-badge]
+![Typescript][typescript-badge]
+![React-Native][reactnative-badge]
+![Expo][expo-badge]
+![Knex][knex-badge]
+![Heroku][heroku-badge]
+-->
+<img src="https://img.shields.io/badge/node-v12.9.1-%238bc500" alt="Node" />
+<img src="https://img.shields.io/badge/react-%5E16.13.1-%2300d8ff" alt="React" />
+<img src="https://img.shields.io/badge/typescript-%5E3.7.5-%232d79c7" alt="Typescript" />
+</div>
+<h1 align="center">
+    Blog
+</h1>
 
-In the project directory, you can run:
+<p align="center" >
+    <img alt="Screenshot" title="" src="screenshot.png" width="512" />
+</p>
 
-### `npm start`
+## :memo: Descrição
+Blog pessoal.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## :rocket: Como usar
+Em desenvolvimento...
+<!--## :book: Features
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+-->
+## :computer: Como instalar
+Em desenvolvimento ...
+## :key: Licença
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+## :gear: Processo
+### :zap: Motivação:
 
-### `npm test`
+### :wrench: Dificuldades:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### :bulb: Soluções:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
