@@ -48,6 +48,8 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 ### :zap: Motivação:
 
 ### :wrench: Dificuldades:
-
+Rich text editor...
+Image Upload....
+Blog Name...
 ### :bulb: Soluções:
 
