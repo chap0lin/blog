@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import './styles.css'
-import thumbImage from '../../screenshot.png'
+// import thumbImage from '../../screenshot.png'
 
 interface PostItemProps{
     id: number;

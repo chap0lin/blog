@@ -26,7 +26,7 @@ const Post = () =>{
     /**
      * Need to make the sharing container
      */
-    var postCode = `
+    /*var postCode = `
 <p>The first thing you need to do is to create a list of everything you need to get started</p>
 
 <p>Mine looked something like this:</p>
@@ -42,7 +42,7 @@ const Post = () =>{
 <h2>Lets Do It!</h2>
 
 <p>I'm just gonna put a image of the blog here</p>
-<img src="https://github.com/chap0lin/blog/blob/master/screenshot.png?raw=true" width="96px" height="56px" />`;
+<img src="https://github.com/chap0lin/blog/blob/master/screenshot.png?raw=true" width="96px" height="56px" />`;*/
 
     const { id } = useParams<routeParams>()
     const [post, setPost] = useState<postData | undefined>(undefined)
@@ -52,7 +52,7 @@ const Post = () =>{
             setPost(response.data[0])
             console.log(response.data)
         })
-    }, [])
+    }, [id])
 
 
     return(
