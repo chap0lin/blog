@@ -1,0 +1,174 @@
+.page-createpost *{
+    font-size: unset;
+}
+
+.page-createpost{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    background: #ddd;
+    gap: 1.6rem;
+}
+.page-createpost .modal-input{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid #23456e;
+    border-radius: 1.8rem;
+    background: white;
+}
+
+.page-createpost .none{
+    display: none;
+}
+
+.page-createpost .tiny-header{
+    background: #23456e;
+    border-top-left-radius: 1.6rem;
+    border-top-right-radius: 1.6rem;
+    padding-left: 3.2rem;
+    height: 4.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-createpost .tiny-header h1{
+    font-size: 2.4rem;
+    color: white
+}
+
+.page-createpost .tiny-header div{
+    color: white;
+    font-size:  1.6rem;
+    position: absolute;
+    top: 1.2rem;
+    right: calc(5% + 1.6rem);
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+.page-createpost .images-container{
+    height: 32rem;
+    background: white;
+    overflow: scroll;
+    padding: 1.6rem;
+    display: flex;
+    gap: 1.6rem;
+    flex-wrap: wrap;
+}
+
+.page-createpost .images-container .image-item{
+    background: #de8712;
+    border-radius: 0.8rem;
+    width: 120px;
+    height: 90px;
+    overflow: hidden;
+}
+
+.page-createpost .images-container .selected{
+    border: 0.4rem solid green;
+}
+
+.page-createpost .button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #23456e;
+    border-bottom-left-radius: 1.6rem;
+    border-bottom-right-radius: 1.6rem;
+    height: 4.8rem;
+}
+.page-createpost .button-container input{
+    display: none;
+}
+.page-createpost .button-container label{
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 1.6rem;
+    height: 3.2rem;
+    color: white;
+    border-radius: 1.2rem;
+}
+.page-createpost .button-container button{
+    font-size: 1.6rem;
+    height: 3.2rem;
+    color: white;
+    border-radius: 1.2rem;
+}
+
+
+.page-createpost .toolbar{
+    display: flex;
+    gap: 2rem;
+}
+
+.page-createpost .toolbar p{
+    border: 1px solid gray;
+    padding: 1rem;
+    font-size: 2.4rem;
+}
+
+.page-createpost .toolbar p:hover{
+    background: #eee;
+    cursor: pointer;
+}
+
+.page-createpost #code{
+    width: 100%;
+    height: 300px ;
+    border: 1px solid black;
+    font-size: 1.2rem;
+    padding: 0.8rem;
+}
+
+.page-createpost #result{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.page-createpost #result p{
+    font-size: 1rem;
+}
+.page-createpost #result h1{
+    font-size: 2rem;
+}
+.page-createpost #result h2{
+    font-size: 1.5rem;
+}
+.page-createpost #result h3{
+    font-size: 1.17rem;
+}
+.page-createpost #result h4{
+    font-size: 1.33rem;
+}
+.page-createpost #result h5{
+    font-size: 0.83rem;
+}
+
+.page-createpost .create-button{
+    font-size: 2.4rem;
+}
+
+.page-createpost .none{
+    display: none;
+}
+
+.page-createpost .post-data{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.page-createpost .post-data input{
+    font-size: 1.6rem;
+}
+.page-createpost .post-data label{
+    font-size: 1.6rem;
+    margin-left: 0.8rem;
+    margin-right: 1.6rem;
+}

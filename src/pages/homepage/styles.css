@@ -1,0 +1,99 @@
+.page-homepage{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.page-homepage .posts-container{
+    background: #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 3.2rem;
+    column-gap: 3.2rem;
+    transition: all 0.5s ease;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    padding-right: 5%;
+    padding-left: 5%;
+    justify-content: center;
+}
+
+.page-homepage .blog-header{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3.2rem;
+}
+
+.page-homepage .blog-header h2{
+    font-size: 4.2rem;
+
+}
+
+.page-homepage .blog-header h3{
+    font-size: 2.4rem;
+    font-weight: normal;
+    max-width: 60rem;
+    text-align: center;
+}
+
+.page-homepage .blog-header .selector-field{
+    display: flex;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2.4rem;
+    padding-bottom: 0.8rem;
+    justify-content: space-between;
+}
+
+.page-homepage .blog-header .selector-field .categories{
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+.page-homepage .blog-header .selector-field .categories h5{
+    font-size: 1.6rem;
+    font-weight: normal;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.page-homepage .blog-header .selector-field .categories h5:hover{
+    color: #fe5000;
+    
+}
+
+.page-homepage .blog-header .selector-field .search-field{
+    display: flex;
+    align-items: center;
+}
+
+.page-homepage .blog-header .selector-field .search-field input{
+    width: 32rem;
+    height: 3.2rem;
+    font-size: 1.6rem;
+    border: #75787B solid 1px;
+    border-color: #D1D1D1;
+    border-radius: 0.8rem;
+    outline: 0;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    padding-left: 0.8rem;
+}
+.page-homepage .blog-header .selector-field .search-field input:focus{
+    border-color: #fe5000;    
+}
+.page-homepage .blog-header .selector-field .search-field input::placeholder{
+    text-align: center;
+    padding-left: 0rem;
+}
+
+.page-homepage .blog-header .selector-field .search-field .search-icon{
+    position: relative;
+    right: 25px;
+    top: 0;
+}

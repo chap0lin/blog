@@ -1,0 +1,53 @@
+.page-post *{
+    font-size: 167%;
+}
+.page-post{
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd;
+    height: 100vh;
+}
+.page-post ul{
+    font-size: 100%;
+    padding-left: 2.4rem;
+    margin-top: 0.6rem; 
+    margin-bottom: 0.6rem;
+}
+
+.page-post .back-header{
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    font-size: 1.4rem;
+    height: 4.8rem;
+}
+.page-post .back-header h2{
+    margin-left: 1.2rem;
+    color: #555;
+    cursor: pointer;
+}
+.page-post .back-header .back-icon{
+    cursor: pointer;
+}
+
+.page-post .post-container{
+    background: white;
+    width: 90%;
+    align-self: center;
+    border-bottom: 0.8rem solid #d2c2e2;
+    
+}
+.page-post .title-container{
+    background: linear-gradient(to right, #d2c2e2, #a1b1c1);
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-post .title-container h1{
+    color: black;
+    font-size: 3.2rem;
+}
+.page-post .post-container .content{
+    padding: 1.6rem;
+}
