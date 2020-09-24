@@ -15,6 +15,10 @@
     color: #fff;
 }
 
+.header-container .logo-container p{
+    color: var(--color-test);
+}
+
 .header-container .options-container{
     display: flex;
     gap: 3.2rem;

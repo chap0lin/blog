@@ -35,7 +35,7 @@
 }
 
 .page-homepage .blog-header h3{
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-weight: normal;
     max-width: 60rem;
     text-align: center;
@@ -63,7 +63,7 @@
     transition: all 0.5s ease;
 }
 .page-homepage .blog-header .selector-field .categories h5:hover{
-    color: #fe5000;
+    color: var(--color-test);
     
 }
 
@@ -85,7 +85,7 @@
     padding-left: 0.8rem;
 }
 .page-homepage .blog-header .selector-field .search-field input:focus{
-    border-color: #fe5000;    
+    border-color: var(--color-test);    
 }
 .page-homepage .blog-header .selector-field .search-field input::placeholder{
     text-align: center;
@@ -96,4 +96,10 @@
     position: relative;
     right: 25px;
     top: 0;
+}
+
+@media(max-width: 600px){
+    .page-homepage .blog-header .selector-field .categories{
+        display: none;
+    }
 }

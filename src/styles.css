@@ -5,3 +5,8 @@
     font-size: 60%;
     font-family: Roboto;
 }
+:root{
+    --color-background: #F0F0F7;
+    --color-primary: #B2B1AC;
+    --color-test: #763626;
+}
