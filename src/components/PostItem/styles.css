@@ -5,43 +5,32 @@
     background: #fff;
     height: 50rem;
     margin: 0rem;
-    transition: all 0.5s ease;
 }
 .post-item-container:hover .image-container img {
-    opacity: 0;
+    transform: scale(1.2);
 }
 .post-item-container:hover .image-container .post-image {
-    opacity: 0.4;
+    opacity: 0.2;
 }
 
 .post-item-container .post-image{
-    position: relative;
+    width: 36rem;
+    height: 21rem;
+    position: absolute;
     z-index: 2;
     background: #fe5000;
-    width: 100%;
-    height: 100%;
-    transition: all 0.8s ease 0s;
+    transition: all 0.8s ease;
     opacity: 0;
 }
 .image-container{
+    height: 21rem;
+    width: 36rem;
     overflow: hidden;
-    position: relative;
-    z-index: 1;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 25rem;
-    width: 100%;
-    transition: all 0.5s ease 0s;
 }
 .image-container img{
-    position: absolute;
-    top: 0.7rem;
-    left: 1rem;
-    z-index: 3;
-    width: 34rem;
-    transition: all 0.8s ease 0s;
-    opacity: 1;
+    width: 360px;
+    height: 21rem;
+    transition: all 0.8s ease;
 }
 
 .post-details{  

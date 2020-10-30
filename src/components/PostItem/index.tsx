@@ -17,12 +17,12 @@ const PostItem:React.FC<PostItemProps> = (props) =>{
     const formatedDate = `${dateInserted.getDay()} ${months[dateInserted.getMonth()]} ${dateInserted.getFullYear()}`
     return(
         <div className="post-item-container">
-            <div className="image-container" style={{backgroundImage:`url(${props.thumbnail})`}}>
-                <Link to={`post/${props.id}`}>
+            <Link to={`post/${props.id}`}>
+            <div className="image-container">
                     <div className="post-image"></div>
                     <img src={props.thumbnail} alt="thumbnail"/>
-                </Link>
             </div>
+            </Link>
             <div className="post-details">
                 <div className="category">
                 <h5>{props.category.toUpperCase()}</h5>
