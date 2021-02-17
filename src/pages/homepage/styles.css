@@ -98,8 +98,25 @@
     top: 0;
 }
 
+.page-homepage .posts-container .invisible{
+    display: none;
+}
+
+.page-homepage .posts-container .indicator{
+    display: none;
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.page-homepage .posts-container .showIndicator{
+    display: block;
+}
+
 @media(max-width: 600px){
     .page-homepage .blog-header .selector-field .categories{
         display: none;
     }
 }
+

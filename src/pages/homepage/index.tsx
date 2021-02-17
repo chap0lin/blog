@@ -4,6 +4,7 @@ import MainHeader from '../../components/MainHeader'
 import {IoIosSearch} from 'react-icons/io'
 
 import api from '../../services/api'
+import indicator from '../../assets/activityIndicator.gif'
 
 import './styles.css'
 
@@ -24,6 +25,7 @@ interface categoryItem{
 function Homepage(){
     const [categories, setCategories] = useState<categoryItem[]>([])
     const [posts, setPosts] = useState<postItem[]>([])
+    const [showIndicator, setShowIndicator] = useState(false)
 
     useEffect(()=>{
         api.get('categories').then(response=>{
@@ -33,7 +35,9 @@ function Homepage(){
     }, [])
 
     useEffect(()=>{
+        setShowIndicator(true)
         api.get('posts').then(response=>{
+            setShowIndicator(false)
             setPosts(response.data)
         })
     }, [])
@@ -61,6 +65,7 @@ function Homepage(){
                 {posts.map(post=>(
                     <PostItem key={post.id} id={post.id} title={post.title} thumbnail={post.thumbnail} category={post.category} description={post.description} inserted_at={post.inserted_at} />
                 ))}
+                <img className={showIndicator?'indicator showIndicator':'indicator'} src={indicator} alt="Indicador"/>
             </div>
         </div>
     )
